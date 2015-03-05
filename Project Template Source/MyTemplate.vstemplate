@@ -18,7 +18,7 @@
       <Folder Name="Properties" TargetFolderName="Properties">
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
       </Folder>
-      <ProjectItem ReplaceParameters="true" TargetFileName="UnitTest1.cs">UnitTest1.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="UnitTest1.cs" OpenInEditor="true">UnitTest1.cs</ProjectItem>
     </Project>
   </TemplateContent>
 </VSTemplate>

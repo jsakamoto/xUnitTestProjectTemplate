@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
   <Metadata>
-    <Identity Version="1.0.0.0" Id="xUnitProjectTemplate" Language="en-us" Publisher="J.Sakamoto" />
+    <Identity Version="1.0.0.2" Id="xUnitProjectTemplate" Language="en-us" Publisher="J.Sakamoto" />
     <DisplayName>xUnit Test Project Template</DisplayName>
     <Description>A project that contains xUnit.net tests with Visual Studio Runner</Description>
     <!--<MoreInfo>http://www.../</MoreInfo>-->
