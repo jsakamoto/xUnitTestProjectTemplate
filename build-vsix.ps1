@@ -21,6 +21,7 @@ $ver = $manifest.PackageManifest.Metadata.Identity.Version
 $zip = new-object Ionic.Zip.ZipFile
 $zip.AddFile((Convert-Path '.\`[Content_Types`].xml'), "") > $null
 $zip.AddFile((Convert-Path .\extension.vsixmanifest), "") > $null
+$zip.AddFile((Convert-Path .\icon.png), "") > $null
 #$zip.AddFile((Convert-Path .\release-notes.txt), "") > $null
 $zip.AddDirectory((Convert-Path .\ProjectTemplates), "ProjectTemplates") > $null
 $zip.Save((Join-Path $scriptDir "xUnitTestProjectTemplate.$ver.vsix"))
