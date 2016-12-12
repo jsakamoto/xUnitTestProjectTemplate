@@ -1,22 +1,23 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
   <Metadata>
-    <Identity Version="2.0.0.0" Id="xUnitProjectTemplate" Language="en-us" Publisher="J.Sakamoto" />
+    <Identity Version="2.0.0.1" Id="xUnitProjectTemplate" Language="en-us" Publisher="J.Sakamoto" />
     <DisplayName>xUnit Test Project Template</DisplayName>
     <Description>A project that contains xUnit.net tests with Visual Studio Runner</Description>
     <!--<MoreInfo>http://www.../</MoreInfo>-->
     <!--<License>eula.rtf</License>-->
-    <!-- <ReleaseNotes>release-notes.txt</ReleaseNotes> -->
+    <!--<ReleaseNotes>release-notes.txt</ReleaseNotes> -->
+    <!--<GettingStartedGuide>https://github.com/jsakamoto/...</GettingStartedGuide>-->
     <Icon>icon.png</Icon>
-    <!--<PreviewImage>Images\preview.png</PreviewImage>-->
+    <!-- <PreviewImage>preview.png</PreviewImage> -->
     <Tags>xunit,Unit Testing,TDD</Tags>
-    <!--<GettingStartedGuide>http://www....</GettingStartedGuide>-->
   </Metadata>
-
   <Installation InstalledByMsi="false">
     <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[11.0,15.0]" />
   </Installation>
-
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[11.0,16.0)" DisplayName="Visual Studio core editor" />
+  </Prerequisites>
   <Assets>
     <Asset Type="Microsoft.VisualStudio.ProjectTemplate" Path="ProjectTemplates" />
   </Assets>
