@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Version="4.0.0.17" Id="xUnitProjectTemplate" Language="en-us" Publisher="J.Sakamoto" />
-        <DisplayName>xUnit Test Project Template</DisplayName>
+        <Identity Version="4.0.0.18" Id="xUnitProjectTemplate" Language="en-us" Publisher="J.Sakamoto" />
+        <DisplayName>xUnit Test Project Template (.NET Framework)</DisplayName>
         <Description xml:space="preserve">A project that contains xUnit.net tests that can run on .NET Framework on Windows, with Visual Studio Runner.</Description>
         <Icon>icon.png</Icon>
         <Tags>xunit,Unit Testing,TDD</Tags>
