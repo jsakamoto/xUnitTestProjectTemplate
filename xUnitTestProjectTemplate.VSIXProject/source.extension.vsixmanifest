@@ -4,6 +4,9 @@
         <Identity Version="4.0.1" Id="xUnitProjectTemplate" Language="en-us" Publisher="J.Sakamoto" />
         <DisplayName>xUnit Test Project Template (.NET Framework)</DisplayName>
         <Description xml:space="preserve">A project that contains xUnit.net tests that can run on .NET Framework on Windows, with Visual Studio Runner.</Description>
+        <MoreInfo>https://marketplace.visualstudio.com/items?itemName=jsakamoto.xUnitTestProjectTemplate</MoreInfo>
+        <License>LICENSE</License>
+        <ReleaseNotes>release-notes.txt</ReleaseNotes>
         <Icon>icon.png</Icon>
         <Tags>xunit,Unit Testing,TDD</Tags>
     </Metadata>

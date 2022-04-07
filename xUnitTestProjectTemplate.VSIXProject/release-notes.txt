@@ -1,0 +1,6 @@
+v.4.0.1
+- Visual Studio 2022 support
+- Add <ProjectTypeTag>Test</ProjectTypeTag>
+
+- v.4.0.0
+- Visual Studio 2019 support
