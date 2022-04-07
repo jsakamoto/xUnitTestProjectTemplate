@@ -5,6 +5,7 @@
     <Description>A project that contains xUnit.net tests that can run on .NET Framework on Windows, with Visual Studio Runner.</Description>
     <Icon>__TemplateIcon.ico</Icon>
     <ProjectType>CSharp</ProjectType>
+    <ProjectTypeTag>Test</ProjectTypeTag>
     <LanguageTag>csharp</LanguageTag>
     <RequiredFrameworkVersion>4.5.2</RequiredFrameworkVersion>
     <SortOrder>1000</SortOrder>
